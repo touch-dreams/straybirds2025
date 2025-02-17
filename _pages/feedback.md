@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: 书籍反馈与更新通知
 permalink: /feedback/
 ---

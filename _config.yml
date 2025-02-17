@@ -1,12 +1,43 @@
-remote_theme: mmistakes/minimal-mistakes
+# Site settings
+title: "飞鸟集 2025"
+description: "现代诠释的诗歌集"
+baseurl: ""  # Leave empty unless site is in a subdirectory
+url: "https://your-website.com"  # Change to your site URL
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-paginate
 
-include: 
-  - _navigation.yml
+# Navigation settings
+navigation: main  # Links are defined in _data/navigation.yml
 
-# Enable header links
+# Header navigation links
 header_pages:
   - index.md
   - feedback.md
+
+# Collections (for custom pages)
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Social Links (Optional)
+social_links:
+  github: "your-github-username"
+  twitter: "your-twitter-handle"
+
+# Pagination (Optional)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Disqus Comments (Optional)
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "your-disqus-shortname"

@@ -3,4 +3,7 @@ main:
     url: /
   - title: 反馈 & 更新
     url: /feedback/
-
+  - title: "关于"
+    url: /about/
+  - title: "联系我们"
+    url: /contact/
