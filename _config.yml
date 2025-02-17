@@ -3,8 +3,10 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-nav:
-  - title: 《飞鸟集 2025》
-    url: index
-  - title: 反馈 & 更新
-    url: /feedback/
+include: 
+  - _navigation.yml
+
+# Enable header links
+header_pages:
+  - index.md
+  - feedback.md

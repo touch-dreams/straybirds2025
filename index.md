@@ -1,4 +1,5 @@
 ---
+layout: home
 title: 《飞鸟集 2025》
 layout: default
 ---
